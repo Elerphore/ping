@@ -19,7 +19,6 @@ for url in urls['urls']:
         code = "Problem Here"
     statuses[url] = code
 
-
 requests.post(
     url=hook_url,
     headers={"Content-Type": "application/json; charset=utf-8", "Accept": "application/json"},
